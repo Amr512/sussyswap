@@ -93,8 +93,8 @@ const SelectToken: React.FC<IModal> = ({
     setInactiveList([]);
     if (zksync) {
       try {
-        const tokenList = MAIN_LIST
-        const filtered = tokenList;
+        const tokenList = await fetch(MAIN_LIST)
+        const filtered = await tokenList.json();
         setInactiveList(filtered.tokens);
       } catch (e) {
         console.log("Wrong Network");
