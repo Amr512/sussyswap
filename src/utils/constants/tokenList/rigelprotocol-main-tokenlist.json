@@ -1,0 +1,26 @@
+{
+    "name": "Sussyswap Default List",
+    "timestamp": "2021-11-25T14:16:42.044Z",
+    "version": {
+      "major": 2,
+      "minor": 0,
+      "patch": 0
+    },
+    "tags": {},
+    "logoURI": "https://assets.coingecko.com/coins/images/15837/small/A_qRYvB2_400x400.png",
+    "keywords": [
+      "Smartswap",
+      "default"
+    ],
+    "tokens": [
+      {
+        "address": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+        "chainId": 1,
+        "name": "USDC",
+        "symbol": "USD//C",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389"
+      }
+    ]
+  }
+  
